@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Development – Teengro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Teengro</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="tech-it.html">Back to Tech Skills</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Web Dev & Full Stack with freeCodeCamp</h2>
+    <p>Master HTML, CSS, JavaScript, and Full Stack development with one of the best free coding platforms.</p>
+  </section>
+
+  <section class="container">
+    <h2>🌐 What is freeCodeCamp?</h2><br>
+    <p>
+      freeCodeCamp is a nonprofit platform that offers thousands of coding lessons and certifications—for free. It covers everything from basic web design to advanced backend systems.
+    </p>
+    <br><br>
+    <h2>🛠️ What You’ll Learn</h2><br>
+    <ul>
+      <ul><strong>HTML & CSS:</strong> Build beautiful and responsive websites</ul>
+      <ul><strong>JavaScript:</strong> Learn the language of the web</ul>
+      <ul><strong>Frontend Libraries:</strong> React, Redux, and more</ul>
+      <ul><strong>Backend:</strong> Work with Node.js, Express, MongoDB</ul>
+      <ul><strong>APIs & Microservices:</strong> Build complete apps</ul>
+      <ul><strong>Responsive Web Design:</strong> Ensure your site works on all devices</ul>
+    </ul>
+    <br><br>
+    <h2>🎯 Why It’s Great for Teens</h2><br>
+    <p>
+      You don’t need a college degree to get started—just curiosity and Wi-Fi. Many teens have learned to build real-world apps and even landed internships by using freeCodeCamp.
+    </p>
+    <br><br>
+    <h2>🚀 Explore Now</h2><br>
+    <p>
+        Start learning with FreeCodeCamp for free.
+    </p>
+    <a class="cta-button" href="https://www.freecodecamp.org/" target="_blank">Start Learning on freeCodeCamp</a>
+  </section>
+  <br><br>
+  <footer>
+    <p>&copy; 2025 Teengro. All rights reserved.</p>
+  </footer>
+  <script>
+    // Check if the user is authenticated
+    if (!sessionStorage.getItem("authenticated")) {
+        window.location.href = "/index.html"; // Redirect back to password page if not authenticated
+    }
+</script>
+</body>
+
+</html>

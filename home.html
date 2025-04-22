@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teengro - Empowering Teen Careers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Landing Page -->
+  <section id="landing">
+    <header>
+      <h1>Teengro</h1>
+      <nav>
+        <a href="./home.html">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#contact">Contact</a>
+        <a href="founder.html">Meet the Founder</a>
+      </nav>
+    </header>
+    <div class="hero">
+      <h2>Empowering Teens to Build Focused Careers</h2>
+      <p>Free high-quality courses. Distraction blockers. AI-assisted learning.</p>
+      <a href="#courses" class="cta-button">Explore Courses</a>
+    </div>
+  </section>
+
+  <!-- Courses Page -->
+  <section id="courses">
+    <h2 style="text-align: center; margin-bottom: 1rem">Explore Courses</h2>
+    <div class="course-grid">
+      <a class="course-card" href="entrepreneurship.html">
+        <h3>Entrepreneurship</h3>
+        <p>Master branding, startup building, and revenue generation. Real teen case studies included!</p>
+      </a>
+      <a class="course-card" href="tech-it.html">
+        <h3>AI & Machine Learning</h3>
+        <p>Understand AI, ML, neural networks, and build smart teen-focused apps. No prior experience needed!</p>
+      </a>
+      <a class="course-card" href="finance.html">
+        <h3>Business & Finance</h3>
+        <p>Grasp budgeting, investing, saving, and understand crypto basics – all for teen success!</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Quiz Page -->
+  <section id="quiz">
+    <h2 style="text-align: center;">Interactive Quiz</h2>
+    <div class="coming-soon">
+      🚧 Quiz feature coming soon. Stay tuned!
+    </div>
+  </section>
+
+  <!-- Contact Page -->
+  <section id="contact">
+    <h2 style="text-align: center">Contact Us</h2>
+    <div class="contact-section">
+      <form id="contact-form" action="https://formsubmit.co/gccolourlab.bly@gmail.com" method="POST" onsubmit="document.getElementById('formSuccess').style.display='block'">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+        <div id="formSuccess" class="form-success">🎉 Your message has been submitted!</div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Teengro. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Check if the user is authenticated
+    if (!sessionStorage.getItem("authenticated")) {
+        window.location.href = "/index.html"; // Redirect back to password page if not authenticated
+    }
+</script>
+
+</body>
+
+</html>

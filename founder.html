@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Founder - Teengro</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #fff;
+      padding: 1rem 2rem;
+      border-radius: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1rem;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      color: #4e6cef;
+    }
+
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #4e6cef;
+    }
+
+    .hero {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: #e0eaff;
+      border-radius: 30px;
+      margin: 1rem;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: white;
+      border-radius: 30px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      color: #4e6cef;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #1a1a1a;
+    }
+
+    p {
+      line-height: 1.8;
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #fff;
+      color: #777;
+      font-size: 0.9rem;
+      margin: 1rem;
+      border-radius: 20px;
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.05);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Teengro</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="home.html#courses">Courses</a>
+      <a href="home.html#quiz">Quiz</a>
+      <a href="home.html#contact">Contact</a>
+      <a href="founder.html">Meet the founder</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Meet the Founder</h2>
+    <p>Vision. Drive. Built by a teen, for teens.</p>
+  </section>
+
+  <div class="container">
+    <h2>What is Teengro?</h2>
+    <p>
+      <span class="highlight">Teengro</span> is not just another teen project — it’s a movement. A distraction-free, power-packed learning space built for teenagers to master real-world skills, discover their career path early, and turn their passion into action. From free courses to AI-assisted learning and focus tools, Teengro is reshaping how teens grow.
+    </p>
+
+    <h2>Meet the Founder</h2>
+    <p>
+      Behind this innovative platform is a <span class="highlight">15-year-old Young Entrepreneur</span> with 2+ years of hands-on experience in running paid ads, building websites, and growing brands. Driven by a passion to empower Gen Z, he built Teengro to give teens access to focused learning, without the fluff or distractions. His vision? Help teens build, not just consume. The founder created Teengro to help teens stop overlearning and start building.
+    </p>
+
+    <p>
+      With sharp insight into what teens actually need and a fearless drive to solve problems,<b> The Founder is living proof that age doesn’t limit ambition. </b>Teengro isn’t just a site — it’s a spark for young creators, coders, and entrepreneurs.
+    </p>
+
+    <p><em>“I built what I wish I had when I started.”</em></p>
+  </div>
+
+  <footer>
+    &copy; 2025 Teengro. Empowering Teen Futures.
+  </footer>
+  <script>
+    // Check if the user is authenticated
+    if (!sessionStorage.getItem("authenticated")) {
+        window.location.href = "/index.html"; // Redirect back to password page if not authenticated
+    }
+</script>
+</body>
+
+</html>

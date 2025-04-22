@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frontend with MDN – Teengro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Teengro</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="tech-it.html">Back to Tech Skills</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Frontend Development with MDN Web Docs</h2>
+    <p>Master the core languages of the web with in-depth guides and real examples.</p>
+  </section>
+
+  <section class="container">
+    <h2>🌐 What is MDN?</h2><br>
+    <p>
+      MDN Web Docs (by Mozilla) is the go-to resource for developers learning and referencing web technologies like HTML, CSS, JavaScript, and web APIs. It’s trusted by professionals and beginners alike.
+    </p>
+    <br><br>
+    <h2>📚 What You’ll Learn</h2><br>
+    <ul>
+      <ul><strong>HTML:</strong> Learn to build the structure of webpages</ul>
+      <ul><strong>CSS:</strong> Design with styles, layout, and animations</ul>
+      <ul><strong>JavaScript:</strong> Add interactivity and logic</ul>
+      <ul><strong>Accessibility:</strong> Build inclusive and usable sites</ul>
+      <ul><strong>Performance:</strong> Make fast, responsive experiences</ul>
+    </ul>
+    <br><br>
+    <h2>🚀 Why It’s Awesome for Teens</h2><br>
+    <p>
+      MDN is perfect if you're serious about web development. It goes deeper than tutorials and gives real-world examples with clear documentation and beginner-friendly explanations.
+    </p>
+    <br><br>
+    <h2>📖 Explore MDN Web Docs</h2><br>
+    <p>
+      <a class="cta-button" href="https://developer.mozilla.org/en-US/" target="_blank">Visit MDN Web Docs</a>
+    </p>
+  </section>
+  <br><br>
+  <footer>
+    <p>&copy; 2025 Teengro. All rights reserved.</p>
+  </footer>
+  <script>
+    // Check if the user is authenticated
+    if (!sessionStorage.getItem("authenticated")) {
+        window.location.href = "/index.html"; // Redirect back to password page if not authenticated
+    }
+</script>
+</body>
+
+</html>
